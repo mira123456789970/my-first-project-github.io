@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Булл | Brawl Stars</title>
+  <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Luckiest Guy', cursive;
+      color: #ffffff;
+      text-align: center;
+      background: url("buul.jpg") no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    header {
+      padding: 30px;
+      font-size: 2.5em;
+      text-shadow: 3px 3px 6px #000;
+    }
+
+    /* Булл по центру */
+    .bull-img {
+      width: 480px;
+      margin: 60px auto;
+      display: block;
+    }
+
+    .info {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+      background: rgba(18, 52, 92, 0.6);
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.7);
+    }
+
+    .info h2 {
+      color: gold;
+      margin-bottom: 15px;
+    }
+
+    .info p {
+      font-size: 1.2em;
+      line-height: 1.6em;
+      margin-bottom: 15px;
+    }
+
+    .btn-back {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background: gold;
+      color: #000;
+      border-radius: 12px;
+      font-size: 1.2em;
+      text-decoration: none;
+      transition: .3s;
+    }
+    .btn-back:hover {
+      background: orange;
+      transform: scale(1.1);
+    }
+
+    /* Кликабельные зоны */
+    .fighters {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+    }
+
+    .fighters a {
+      position: absolute;
+      display: block;
+      pointer-events: auto;
+    }
+
+    /* Координаты под твой фон */
+    .nita { left: 6%; top: 5%; width: 120px; height: 200px; }
+    .crow   { right: 6%; top: 5%; width: 120px; height: 200px; }
+    .jessie { left: 3%; bottom: 10%; width: 130px; height: 200px; }
+    .poco   { right: 3%; bottom: 15%; width: 120px; height: 200px; }
+
+  </style>
+</head> 
+<body>
+  <header>Булл</header>
+
+  <!-- Вернули Булла -->
+  <img src="bull.webp" alt="Булл" class="bull-img">
+
+  <div class="info">
+    <h2>Описание</h2>
+    <p><b>Редкость:</b> Редкий</p>
+    <p><b>Здоровье:</b> Очень высокое</p>
+    <p><b>Атака:</b> Дробовик с большим уроном вблизи</p>
+    <p><b>Супер:</b> Булл несётся вперёд, разрушая препятствия и отталкивая врагов</p>  
+
+    <a href="bib.html" class="btn-back">Назад к бойцам</a>
+  </div>
+
+  <!-- Кликабельные области -->
+  <div class="fighters">
+    <a href="nita.html" class="nita"></a>
+    <a href="crow.html" class="crow"></a>
+    <a href="jessie.html" class="jessie"></a>
+    <a href="poco.html" class="poco"></a>
+    
+  </div>
+</body>
+</html>

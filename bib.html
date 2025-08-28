@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Бойцы Brawl Stars</title>
+  <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin:0;
+      font-family:'Luckiest Guy',cursive;
+      background:#111;
+      color:#fff;
+      text-align:center;
+      scroll-behavior:smooth;
+    }
+    header {
+      background:#222;
+      padding:20px;
+      font-size:2em;
+      text-shadow:2px 2px 5px #000;
+    }
+    nav {
+      margin:20px 0;
+    }
+    nav a {
+      display:inline-block;
+      margin:5px 10px;
+      padding:10px 20px;
+      background:gold;
+      color:#000;
+      border-radius:12px;
+      text-decoration:none;
+      font-size:1.2em;
+      transition:.3s;
+    }
+    nav a:hover {
+      background:orange;
+      transform:scale(1.1);
+    }
+    .category {
+      margin:40px auto;
+      max-width:1100px;
+      padding:20px;
+      border-radius:15px;
+      background:#222;
+      box-shadow:0 0 15px rgba(0,0,0,0.6);
+    }
+    .category h2 {
+      color:gold;
+      margin-bottom:20px;
+    }
+    .fighters {
+      display:flex;
+      flex-wrap:wrap;
+      justify-content:center;
+      gap:20px;
+    }
+    .fighter {
+      width:150px;
+      background:#333;
+      border-radius:12px;
+      overflow:hidden;
+      box-shadow:0 0 10px #000;
+      transition:.3s;
+    }
+    .fighter img {
+      width:100%;
+      display:block;
+    }
+    .fighter p {
+      margin:10px 0;
+      font-size:1.1em;
+    }
+    .fighter:hover {
+      transform:scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <header>Бойцы BRAWL STARS</header>
+
+  <!-- Меню по редкости -->
+  <nav>
+    <a href="#rare">Редкие</a>
+    <a href="#superrare">Сверхредкие</a>
+    <a href="#epic">Эпические</a>
+    <a href="#mythic">Мифические</a>
+    <a href="#legendary">Легендарные</a>
+    <a href="#chromatic">Хроматические</a>
+  </nav>
+
+  <!-- Разделы -->
+  <section id="rare" class="category">
+    <h2>Редкие</h2>
+    <div class="fighters">
+      <div class="fighter">
+        <img src="shellyy.webp" alt="Шелли">
+        <p>Шелли</p>
+      </div>
+      <div class="fighter">
+        <img src="nita.webp" alt="Нита">
+        <p>Нита</p>
+      </div>
+      <div class="fighter">
+        <img src="kolt.webp" alt="Кольт">
+        <p>Кольт</p>
+      </div>
+      <div class="fighter"
+        onclick="location.href='bull.html'"
+        style="cursor:pointer;">
+        <img src="bull.webp" alt="Булл">
+        <p>Булл</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="superrare" class="category">
+    <h2>Сверхредкие</h2>
+    <div class="fighters">
+      <div class="fighter"
+         onclick="location.href='riko.html'"
+        style="cursor:pointer;">
+        <img src="riko.webp" alt="Рико">
+        <p>Рико</p>
+      </div>
+      <div class="fighter">
+        <img src="der.webp" alt="Дэррил">
+        <p>Дэррил</p>
+      </div>
+      <div class="fighter">
+        <img src="penny.webp" alt="Пенни">
+        <p>Пенни</p>
+      </div>
+      <div class="fighter">
+        <img src="carl.png" alt="Карл">
+        <p>Карл</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="epic" class="category">
+    <h2>Эпические</h2>
+    <div class="fighters">
+      <div class="fighter">
+        <img src="piper.webp" alt="Пайпер">
+        <p>Пайпер</p>
+      </div>
+      <div class="fighter">
+        <img src="pam.webp" alt="Пэм">
+        <p>Пэм</p>
+      </div>
+      <div class="fighter">
+        <img src="frenk.webp" alt="Фрэнк">
+        <p>Фрэнк</p>
+      </div>
+      <div class="fighter">
+        <img src="bibi.webp" alt="Биби">
+        <p>Биби</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="mythic" class="category">
+    <h2>Мифические</h2>
+    <div class="fighters">
+      <div class="fighter">
+        <img src="mortis.webp" alt="Мортис">
+        <p>Мортис</p>
+      </div>
+      <div class="fighter">
+        <img src="tara.webp" alt="Тара">
+        <p>Тара</p>
+      </div>
+      <div class="fighter">
+        <img src="dj.webp" alt="Джин">
+        <p>Джин</p>
+      </div>
+      <div class="fighter">
+        <img src="p.webp" alt="Мистер П">
+        <p>Мистер П</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="legendary" class="category">
+    <h2>Легендарные</h2>
+    <div class="fighters">
+      <div class="fighter">
+        <img src="sp.webp" alt="Спайк">
+        <p>Спайк</p>
+      </div>
+      <div class="fighter">
+        <img src="wr.webp" alt="Ворон">
+        <p>Ворон</p>
+      </div>
+      <div class="fighter">
+        <img src="lej.webp" alt="Леон">
+        <p>Леон</p>
+      </div>
+      <div class="fighter">
+        <img src="sendy.webp" alt="Сэнди">
+        <p>Сэнди</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="chromatic" class="category">
+    <h2>Хроматические</h2>
+    <div class="fighters">
+      <div class="fighter">
+        <img src="wolt.webp" alt="Вольт">
+        <p>Вольт</p>
+      </div>
+      <div class="fighter">
+        <img src="lu.webp" alt="Лу">
+        <p>Лу</p>
+      </div>
+      <div class="fighter">
+        <img src="collet.webp" alt="Колетт">
+        <p>Колетт</p>
+      </div>
+      <div class="fighter">
+        <img src="bell.webp" alt="Белль">
+        <p>Белль</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
